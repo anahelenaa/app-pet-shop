@@ -1,0 +1,12 @@
+.fundo-listagem-func {
+
+}
+
+.conteudo-pagina-listagem-func{
+    display: flex;
+}
+
+.conteudo-listagem-func{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}

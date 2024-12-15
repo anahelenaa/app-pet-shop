@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import './login.css'
 import ImagemPata from '../../imagens/pata-verde-agua.png'
-import Cadastro from '../cadastro/Cadastro'
+import Cadastro from '../cadastro-funcionario/Cadastro'
 
 const Login = () => {
   return (

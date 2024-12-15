@@ -1,0 +1,29 @@
+table{
+    margin: 2vw;
+    padding: 0;
+    background-color: var(--corBranco);
+    width: 96%;
+}
+
+.th-listagem{
+    background-color: var(--corPrimaria);
+    padding: 10px 10px;
+    color: var(--corBranco);
+}
+
+.td-listagem {
+    padding: 10px;
+    color: var(--corPrimariaEscura);
+}
+
+.td-acao {
+    text-align: center; 
+}
+
+.icone-excluir {
+    color: var(--vermelho);
+}
+
+.icone-editar{
+    color: var(--corPrimariaEscura);
+}

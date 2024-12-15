@@ -15,7 +15,7 @@ const ItensMenuLateralDados = [
     {
         page:'Funcionarios',
         icon: <FaIcon.FaPeopleCarry/>,
-        path:'/funcionario',
+        path:'/funcionarios',
     },
     {
         page:'Fornecedores',
