@@ -2,8 +2,9 @@
 
 :root {
     --corPrimaria: #0e7874;
-    --corSecundaria: #edfaf9;
+    --corSecundaria: #ddedec;
     --corBranco: #ffff;
+    --corTransparente: #00000000;
 }
 
 *{

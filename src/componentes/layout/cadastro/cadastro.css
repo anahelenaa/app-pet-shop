@@ -1,4 +1,4 @@
-.fundo-login{
+.fundo-cadastro{
     background-color: var(--corSecundaria);
     height: 100vh;
     width: 100vw;
@@ -8,28 +8,28 @@
 }
 
 
-.conteudo-login{
+.conteudo-cadastro{
     width: 50%;
-    height:70%;
+    height:90%;
     text-align: center;
 }
 
-.nome-pagina-login{
+.nome-pagina-cadastro{
     margin: 0px;
     margin-bottom: 30px;
     font-size: 40px;
     color: var(--corPrimaria);
 }
 
-.dados-login {
+.dados-cadastro {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
 }
 
-.dados-login input {
-    margin-top: 20px;
+.dados-cadastro input {
+    margin-top: 30px;
     width: 350px;
     height: 30px;
     outline: none;
@@ -39,21 +39,17 @@
     border-width: 0.9px;
 }
 
-.dados-login input:last-of-type{
-    margin-top: 30px;
-}
-
-.botoes-login {
+.botoes-cadastro {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
 }
 
-.botoes-login button {
+.botoes-cadastro button {
     width: 150px;
     height: 37px;
-    margin-top: 70px;
+    margin-top: 40px;
     font-size: 18px;
     color: var(--corBranco);
     background-color: var(--corPrimaria);
@@ -61,20 +57,20 @@
     border-radius: 5px;
 }
 
-.botoes-login button:hover {
+.botoes-cadastro button:hover {
     cursor: pointer;
 }
 
-.botoes-login p {
+.botoes-cadastro p {
     margin-top: 25px;
 }
 
-.botoes-login p a{
+.botoes-cadastro p a{
     color: var(--corPrimaria);
     text-decoration: none;
 }
 
-.botoes-login p a:hover{
+.botoes-cadastro p a:hover{
     text-decoration: underline;
 
 }

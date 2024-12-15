@@ -1,0 +1,37 @@
+.header{
+    background-color: var(--corPrimaria);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-header {
+    height: 50px;
+}
+
+.nome-header {
+    color: var(--corBranco);
+}
+
+.nome-sistema-header {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 20px;
+}
+
+.botao-menu {
+    background-color: var(--corTransparente);
+    border: 0px;
+    color: var(--corBranco);
+}
+
+.botao-menu:hover {
+    cursor: pointer;
+}
+
+.botoes-header{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
