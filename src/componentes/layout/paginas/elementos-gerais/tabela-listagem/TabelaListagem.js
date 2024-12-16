@@ -10,7 +10,7 @@ const TabelaListagem = ({camposTabela, dadosTabela}) => {
             {
                 camposTabela.map((campo, index) => {
                     return (
-                        <th aria-colspan={campo.tamanho} className='th-listagem'>{campo.nome}</th>
+                        <th className='th-listagem'>{campo.nome}</th>
                     )
                 })
             }  

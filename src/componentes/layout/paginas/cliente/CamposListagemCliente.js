@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CamposListagemFuncionario = [
+const CamposListagemCliente = [
     {
         nome:'Nome',
         nomeAtributo: 'nome'
@@ -14,10 +14,6 @@ const CamposListagemFuncionario = [
         nomeAtributo: 'telefone'
     },
     {
-        nome:'Salário',
-        nomeAtributo: 'salario'
-    },
-    {
         nome:'Excluir',
         nomeAtributo: 'excluir'
     },
@@ -27,4 +23,4 @@ const CamposListagemFuncionario = [
     },
 ]
 
-export default CamposListagemFuncionario
+export default CamposListagemCliente
