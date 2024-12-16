@@ -7,6 +7,7 @@ import Dashboard from '../componentes/layout/dashboard/Dashboard';
 import ListagemCliente from '../componentes/layout/paginas/cliente/ListagemCliente';
 import ListagemFuncionario from '../componentes/layout/paginas/funcionario/ListagemFuncionario';
 import EdicaoCliente from '../componentes/layout/paginas/cliente/EdicaoCliente';
+import ListagemPet from '../componentes/layout/paginas/pet/ListagemPet';
 
 const Rotas = () => {
   return (
@@ -19,6 +20,7 @@ const Rotas = () => {
            <Route element = {<ListagemCliente/>}     path="/clientes" exact />
            <Route element = {<ListagemFuncionario/>} path="/funcionarios" exact />
            <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
+           <Route element = {<ListagemPet/>}         path= "/pets" exact />
         </Routes>
         
     </BrowserRouter>
