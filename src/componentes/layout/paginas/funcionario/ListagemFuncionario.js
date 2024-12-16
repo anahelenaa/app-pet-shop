@@ -2,7 +2,7 @@ import {React, useState} from 'react'
 import Header from '../../elementos/header/Header';
 import MenuLateral from '../../elementos/menu-lateral/MenuLateral';
 import './listagem-funcionario.css'
-import Topo from '../elementos-gerais/topo/Topo';
+import Topo from '../elementos-gerais/topo-listagem/Topo';
 import CamposListagemFuncionario from './CamposListagemFuncionario';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem';
 import DadosTesteListFunc from './DadosTesteListFunc';
