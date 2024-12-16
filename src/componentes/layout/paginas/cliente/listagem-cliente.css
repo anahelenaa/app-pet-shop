@@ -1,8 +1,8 @@
-.conteudo-pagina-listagem-func{
+.conteudo-pagina-listagem-cli{
     display: flex;
 }
 
-.conteudo-listagem-func{
+.conteudo-listagem-cli{
     background-color: var(--corSecundaria);
     width: 100vw;
 }
