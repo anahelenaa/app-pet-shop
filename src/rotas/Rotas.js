@@ -6,6 +6,7 @@ import Cadastro from '../componentes/layout/cadastro-funcionario/Cadastro';
 import Dashboard from '../componentes/layout/dashboard/Dashboard';
 import ListagemCliente from '../componentes/layout/paginas/cliente/ListagemCliente';
 import ListagemFuncionario from '../componentes/layout/paginas/funcionario/ListagemFuncionario';
+import EdicaoCliente from '../componentes/layout/paginas/cliente/EdicaoCliente';
 
 const Rotas = () => {
   return (
@@ -17,6 +18,7 @@ const Rotas = () => {
            <Route element = {<Dashboard/>}           path="/dashboard" exact />
            <Route element = {<ListagemCliente/>}     path="/clientes" exact />
            <Route element = {<ListagemFuncionario/>} path="/funcionarios" exact />
+           <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
         </Routes>
         
     </BrowserRouter>
