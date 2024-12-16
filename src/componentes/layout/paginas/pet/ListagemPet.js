@@ -34,4 +34,5 @@ const ListagemFuncionario = () => {
   )
 }
 
+
 export default ListagemFuncionario
