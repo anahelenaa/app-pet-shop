@@ -2,7 +2,7 @@ import {React, useState} from 'react'
 import Header from '../../elementos/header/Header.js';
 import MenuLateral from '../../elementos/menu-lateral/MenuLateral.js';
 import './listagem-prod.css'
-import Topo from '../elementos-gerais/topo/Topo.js';
+import Topo from '../elementos-gerais/topo-listagem/Topo.js';
 import CamposListagemProd from './CamposListagemProd.js';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem.js';
 import DadosTesteListProd from './DadosTesteListProd.js';

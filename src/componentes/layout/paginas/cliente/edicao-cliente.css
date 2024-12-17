@@ -6,3 +6,14 @@
     background-color: var(--corSecundaria);
     width: 100vw;
 }
+
+.dados-cli{
+    background-color: var(--corBranco);
+    margin: 2vw;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.dados-edicao-cli-nome p{
+    margin-top: -2vw;
+}
