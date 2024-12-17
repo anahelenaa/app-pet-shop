@@ -17,5 +17,6 @@
 .dados-modulo-topo-edicao{
     background-color: var(--corBranco);
     margin: 2vw;
+    margin-bottom: 0px;
     padding-bottom: 30px;
 }

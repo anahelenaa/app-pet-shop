@@ -3,6 +3,9 @@ import Header from '../../elementos/header/Header';
 import MenuLateral from '../../elementos/menu-lateral/MenuLateral';
 import Topo from '../elementos-gerais/topo-edicao/Topo';
 import './edicao-cliente.css';
+import DadosEdicao from '../elementos-gerais/dados-edicao/DadosEdicao';
+import CamposEdicaoCliente from './CamposEdicaoCliente';
+import DadosTesteEdicaoCli from './DadosTesteEdicaoCli';
 
 const EdicaoCliente = () => {
   const [botaoClicado, setBotaoClicado ] = useState(true);
@@ -21,7 +24,7 @@ const EdicaoCliente = () => {
                 <Topo nomeObjetoModulo={'Cliente'} descricaoModulo={'Visualize e edite os dados do cliente'}/>
 
                 <div className='dados-cli'>
-                  
+                  <DadosEdicao camposEdicao={CamposEdicaoCliente} dadosObjeto={DadosTesteEdicaoCli} modulo={'cli'}/>
                 </div>
 
               </div>
