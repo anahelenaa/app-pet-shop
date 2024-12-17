@@ -1,0 +1,8 @@
+.conteudo-pagina-listagem-prod{
+    display: flex;
+}
+
+.conteudo-listagem-prod{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}  
