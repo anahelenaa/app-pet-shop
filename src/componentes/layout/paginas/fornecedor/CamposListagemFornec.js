@@ -27,4 +27,5 @@ const CamposListagemFornecedor = [
     },
 ]
 
+
 export default CamposListagemFornecedor

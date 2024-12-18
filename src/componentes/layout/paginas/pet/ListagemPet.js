@@ -7,7 +7,7 @@ import CamposListagemPet from './CamposListagemPet.js';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem.js';
 import DadosTesteListPet from './DadosTesteListPet.js';
 
-const ListagemFuncionario = () => {
+const ListagemPet = () => {
     const [botaoClicado, setBotaoClicado ] = useState(true);
 
     const clicarBotao = () => {
@@ -23,7 +23,7 @@ const ListagemFuncionario = () => {
 
             <Topo 
              nomeModulo={'Pets'}
-             descricaoModulo={'Cadastre, altere e exclua funcionários'}
+             descricaoModulo={'Cadastre, altere e exclua pets'}
              />
 
             <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={DadosTesteListPet}/>
@@ -35,4 +35,4 @@ const ListagemFuncionario = () => {
 }
 
 
-export default ListagemFuncionario
+export default ListagemPet

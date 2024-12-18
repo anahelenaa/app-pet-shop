@@ -22,6 +22,7 @@ const CamposListagemFuncionario = [
         nomeAtributo: 'pet'
     },
     {
+        
         nome:'Excluir',
         nomeAtributo: 'excluir'
     },

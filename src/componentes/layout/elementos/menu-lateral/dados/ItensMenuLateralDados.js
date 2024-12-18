@@ -28,9 +28,9 @@ const ItensMenuLateralDados = [
         path:'/produtos',
     },
     {
-        page:'Vendas',
+        page:'Pedido',
         icon: <FaIcon.FaReceipt/>,
-        path:'/vendas',
+        path:'/pedidos',
     },
     {
         page:'Banho e tosa',

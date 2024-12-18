@@ -27,4 +27,5 @@ const CamposListagemPedido = [
     },
 ]
 
+
 export default CamposListagemPedido
