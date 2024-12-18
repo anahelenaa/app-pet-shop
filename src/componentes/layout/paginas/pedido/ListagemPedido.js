@@ -22,7 +22,7 @@ const ListagemPedido = () => {
         <div className='conteudo-listagem-pedido'>
 
             <Topo 
-             nomeModulo={'pedido'}
+             nomeModulo={'Pedidos'}
              descricaoModulo={'Cadastre, altere e exclua pedidos'}
              />
 

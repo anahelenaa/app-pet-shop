@@ -23,7 +23,7 @@ const ListagemFornecedor = () => {
         <div className='conteudo-listagem-fornecedor'>
 
             <Topo 
-             nomeModulo={'fornecedor'}
+             nomeModulo={'Fornecedores'}
              descricaoModulo={'Cadastre, altere e exclua fornecedores'}
              />
 

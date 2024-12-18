@@ -22,8 +22,8 @@ const ListagemProduto = () => {
         <div className='conteudo-listagem-prod'>
 
             <Topo 
-             nomeModulo={'Prod'}
-             descricaoModulo={'Cadastre, altere e exclua funcionários'}
+             nomeModulo={'Produtos'}
+             descricaoModulo={'Cadastre, altere e exclua produtos'}
              />
 
             <TabelaListagem camposTabela={CamposListagemProd} dadosTabela={DadosTesteListProd}/>
