@@ -1,13 +1,13 @@
-.conteudo-pagina-edicao-cli{
+.conteudo-pagina-edicao-func{
     display: flex;
 }
 
-.conteudo-edicao-cli{
+.conteudo-edicao-func{
     background-color: var(--corSecundaria);
     width: 100vw;
 }
 
-.dados-cli{
+.dados-func{
     background-color: var(--corBranco);
     margin: 2vw;
     padding-left: 25px;
@@ -15,14 +15,15 @@
     margin-top: -2vw;
 }
 
-.dados-edicao-cli-nome {
+.dados-edicao-func-nome {
     padding-top: 30px;
 }
 
-.dados-edicao-cli-nome input,
-.dados-edicao-cli-email input,
-.dados-edicao-cli-telefone input,
-.dados-edicao-cli-endereco input
+.dados-edicao-func-nome input,
+.dados-edicao-func-email input,
+.dados-edicao-func-telefone input,
+.dados-edicao-func-endereco input,
+.dados-edicao-func-salario input
 {
     margin-left: 10px;
     width: 200px;

@@ -8,9 +8,9 @@ const DadosEdicao = ({camposEdicao, dadosObjeto}) => {
         {
             camposEdicao.map((campo, index) => {
                 return (
-                  <div className={'dados-edicao-' + campo.classe}>
+                  <div className={'conjunto-dados-edicao dados-edicao-' + campo.classe}>
                   <p><b>{campo.nome}:</b></p> 
-                  <input name={campo.nomeAtributo} value={dadosObjeto[campo.nomeAtributo] ?? ''}/>
+                  <input name={campo.nomeAtributo} value={dadosObjeto[campo.nomeAtributo]}/>
                   </div>         
                 )
             })

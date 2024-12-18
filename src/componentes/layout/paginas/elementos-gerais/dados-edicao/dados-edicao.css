@@ -13,3 +13,18 @@
     background-color: var(--corPrimariaHover);
     cursor: pointer;
 }
+
+.conjunto-dados-edicao {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.conjunto-dados-edicao input {
+    max-height: 25px;
+    border-color: var(--corPrimaria);
+    border-radius: 3px;
+    padding-left: 10px;
+}

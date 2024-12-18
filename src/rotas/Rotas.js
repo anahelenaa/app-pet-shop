@@ -12,6 +12,7 @@ import ListagemProduto from '../componentes/layout/paginas/produto/ListagemProdu
 import ListagemFornecedor from '../componentes/layout/paginas/fornecedor/ListagemFornecedor';
 import ListagemPedido from '../componentes/layout/paginas/pedido/ListagemPedido';
 import ListagemBanho from '../componentes/layout/paginas/banho-e-tosa/ListagemBanho';
+import EdicaoFuncionario from '../componentes/layout/paginas/funcionario/EdicaoFuncionario';
 
 const Rotas = () => {
   return (
@@ -24,6 +25,7 @@ const Rotas = () => {
            <Route element = {<ListagemCliente/>}     path="/clientes" exact />
            <Route element = {<ListagemFuncionario/>} path="/funcionarios" exact />
            <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
+           <Route element = {<EdicaoFuncionario/>}   path="/funcionarios/editar/idFuncionario" exact />
            <Route element = {<ListagemPet/>}         path= "/pets" exact />
            <Route element = {<ListagemProduto/>}         path= "/produtos" exact />
            <Route element = {<ListagemFornecedor/>}         path= "/fornecedores" exact />
