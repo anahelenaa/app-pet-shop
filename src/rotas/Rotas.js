@@ -9,6 +9,7 @@ import ListagemFuncionario from '../componentes/layout/paginas/funcionario/Lista
 import EdicaoCliente from '../componentes/layout/paginas/cliente/EdicaoCliente';
 import ListagemPet from '../componentes/layout/paginas/pet/ListagemPet';
 import ListagemProduto from '../componentes/layout/paginas/produto/ListagemProduto';
+import EdicaoFuncionario from '../componentes/layout/paginas/funcionario/EdicaoFuncionario';
 
 
 const Rotas = () => {
@@ -22,6 +23,7 @@ const Rotas = () => {
            <Route element = {<ListagemCliente/>}     path="/clientes" exact />
            <Route element = {<ListagemFuncionario/>} path="/funcionarios" exact />
            <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
+           <Route element = {<EdicaoFuncionario/>}       path="/funcionarios/editar/idFuncionario" exact />
            <Route element = {<ListagemPet/>}         path= "/pets" exact />
            <Route element = {<ListagemProduto/>}         path= "/produtos" exact />
         </Routes>

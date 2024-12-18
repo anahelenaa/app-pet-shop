@@ -1,0 +1,30 @@
+.conteudo-pagina-edicao-func{
+    display: flex;
+}
+
+.conteudo-edicao-func{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}
+
+.dados-func{
+    background-color: var(--corBranco);
+    margin: 2vw;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    margin-top: -2vw;
+}
+
+.dados-edicao-func-nome {
+    padding-top: 30px;
+}
+
+.dados-edicao-func-nome input,
+.dados-edicao-func-email input,
+.dados-edicao-func-telefone input,
+.dados-edicao-func-endereco input,
+.dados-edicao-func-salario input
+{
+    margin-left: 10px;
+    width: 200px;
+}
