@@ -26,7 +26,6 @@ const DadosTesteListPedido = [
         pedido:' 20/07/2024'
     },
         
-    
 ]
 
 export default DadosTesteListPedido

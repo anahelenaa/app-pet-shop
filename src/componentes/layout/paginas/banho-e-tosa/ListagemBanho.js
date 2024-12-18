@@ -7,7 +7,6 @@ import CamposListagemBanho from './CamposListagemBanho';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem';
 import DadosTesteListBanho from './DadosTesteListBanho';
  
-
 const ListagemBanho = () => {
     const [botaoClicado, setBotaoClicado ] = useState(true);
 

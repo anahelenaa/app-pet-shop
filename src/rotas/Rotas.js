@@ -13,7 +13,6 @@ import ListagemFornecedor from '../componentes/layout/paginas/fornecedor/Listage
 import ListagemPedido from '../componentes/layout/paginas/pedido/ListagemPedido';
 import ListagemBanho from '../componentes/layout/paginas/banho-e-tosa/ListagemBanho';
 
-
 const Rotas = () => {
   return (
     <BrowserRouter>

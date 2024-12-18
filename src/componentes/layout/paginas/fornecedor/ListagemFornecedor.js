@@ -7,6 +7,7 @@ import CamposListagemFornec from './CamposListagemFornec.js';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem.js';
 import DadosTesteListFornec from './DadosTesteListFornec.js';
 
+
 const ListagemFornecedor = () => {
     const [botaoClicado, setBotaoClicado ] = useState(true);
 

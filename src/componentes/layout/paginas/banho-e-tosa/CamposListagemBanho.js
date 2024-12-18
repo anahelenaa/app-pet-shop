@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const CamposListagemFuncionario = [
     {
         nome:'Tipo',
@@ -22,7 +23,7 @@ const CamposListagemFuncionario = [
         nomeAtributo: 'pet'
     },
     {
-        
+
         nome:'Excluir',
         nomeAtributo: 'excluir'
     },

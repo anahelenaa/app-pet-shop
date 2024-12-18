@@ -28,7 +28,6 @@ const ListagemPedido = () => {
 
             <TabelaListagem camposTabela={CamposListagemPedido} dadosTabela={DadosTesteListPedido}/>
 
-
         </div>
       </div>
     </div>
