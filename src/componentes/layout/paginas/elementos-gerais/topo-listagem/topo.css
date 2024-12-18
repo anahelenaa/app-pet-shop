@@ -19,3 +19,10 @@
     margin: 2vw;
     padding-bottom: 30px;
 }
+
+.botao-adicionar-topo{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    gap: 10px;
+}
