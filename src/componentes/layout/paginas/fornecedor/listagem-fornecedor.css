@@ -1,0 +1,8 @@
+.conteudo-pagina-listagem-fornecedor{
+    display: flex;
+}
+
+.conteudo-listagem-fornecedor{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}  

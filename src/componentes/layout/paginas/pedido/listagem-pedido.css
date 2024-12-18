@@ -1,0 +1,8 @@
+.conteudo-pagina-listagem-pedido{
+    display: flex;
+}
+
+.conteudo-listagem-pedido{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}  
