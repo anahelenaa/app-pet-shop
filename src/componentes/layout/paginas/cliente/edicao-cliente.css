@@ -12,8 +12,18 @@
     margin: 2vw;
     padding-left: 25px;
     padding-bottom: 30px;
+    margin-top: -2vw;
 }
 
-.dados-edicao-cli-nome p{
-    margin-top: -2vw;
+.dados-edicao-cli-nome {
+    padding-top: 30px;
+}
+
+.dados-edicao-cli-nome input,
+.dados-edicao-cli-email input,
+.dados-edicao-cli-telefone input,
+.dados-edicao-cli-endereco input
+{
+    margin-left: 10px;
+    width: 200px;
 }
