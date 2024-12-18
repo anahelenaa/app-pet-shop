@@ -1,32 +1,33 @@
 import {React, useState} from 'react'
 import Header from '../../elementos/header/Header.js';
 import MenuLateral from '../../elementos/menu-lateral/MenuLateral.js';
-import './listagem-pet.css'
+import './listagem-fornecedor.css'
 import Topo from '../elementos-gerais/topo-listagem/Topo.js';
-import CamposListagemPet from './CamposListagemPet.js';
+import CamposListagemFornec from './CamposListagemFornec.js';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem.js';
-import DadosTesteListPet from './DadosTesteListPet.js';
+import DadosTesteListFornec from './DadosTesteListFornec.js';
 
-const ListagemPet = () => {
+
+const ListagemFornecedor = () => {
     const [botaoClicado, setBotaoClicado ] = useState(true);
 
     const clicarBotao = () => {
         setBotaoClicado(!botaoClicado);
     }
   return (
-    <div className='fundo-listagem-pet'>
+    <div className='fundo-listagem-fornecedor'>
       <Header clicarBotao={clicarBotao}/>
-      <div className='conteudo-pagina-listagem-pet'>
+      <div className='conteudo-pagina-listagem-fornecedor'>
         <MenuLateral botaoClicado={botaoClicado}/>
         
-        <div className='conteudo-listagem-pet'>
+        <div className='conteudo-listagem-fornecedor'>
 
             <Topo 
-             nomeModulo={'Pets'}
-             descricaoModulo={'Cadastre, altere e exclua pets'}
+             nomeModulo={'fornecedor'}
+             descricaoModulo={'Cadastre, altere e exclua fornecedores'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={DadosTesteListPet}/>
+            <TabelaListagem camposTabela={CamposListagemFornec} dadosTabela={DadosTesteListFornec}/>
 
         </div>
       </div>
@@ -35,4 +36,4 @@ const ListagemPet = () => {
 }
 
 
-export default ListagemPet
+export default ListagemFornecedor

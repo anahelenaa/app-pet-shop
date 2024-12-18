@@ -1,21 +1,21 @@
 import React from 'react'
 
-const CamposListagemFuncionario = [
+const CamposListagemFornecedor = [
     {
         nome:'Nome',
         nomeAtributo: 'nome'
-    },
-    {
-        nome:'E-mail',
-        nomeAtributo: 'email'
     },
     {
         nome:'Telefone',
         nomeAtributo: 'telefone'
     },
     {
-        nome:'Salário',
-        nomeAtributo: 'salario'
+        nome:'E-mail',
+        nomeAtributo: 'email'
+    },
+    {
+        nome:'Endereço',
+        nomeAtributo: 'endereco'
     },
     {
         nome:'Excluir',
@@ -27,4 +27,4 @@ const CamposListagemFuncionario = [
     },
 ]
 
-export default CamposListagemFuncionario
+export default CamposListagemFornecedor

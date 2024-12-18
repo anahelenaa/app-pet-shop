@@ -1,0 +1,8 @@
+.conteudo-pagina-listagem-banho{
+    display: flex;
+}
+
+.conteudo-listagem-banho{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}

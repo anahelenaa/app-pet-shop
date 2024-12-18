@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CamposListagemFuncionario = [
+const CamposListagemPet = [
     {
         nome:'Nome',
         nomeAtributo: 'nome'
@@ -32,4 +32,4 @@ const CamposListagemFuncionario = [
     },
 ]
 
-export default CamposListagemFuncionario
+export default CamposListagemPet
