@@ -27,10 +27,10 @@ const Rotas = () => {
            <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
            <Route element = {<EdicaoFuncionario/>}   path="/funcionarios/editar/idFuncionario" exact />
            <Route element = {<ListagemPet/>}         path= "/pets" exact />
-           <Route element = {<ListagemProduto/>}         path= "/produtos" exact />
-           <Route element = {<ListagemFornecedor/>}         path= "/fornecedores" exact />
-           <Route element = {<ListagemPedido/>}         path= "/pedidos" exact />
-           <Route element = {<ListagemBanho/>}         path= "/banho-e-tosa" exact />
+           <Route element = {<ListagemProduto/>}     path= "/produtos" exact />
+           <Route element = {<ListagemFornecedor/>}  path= "/fornecedores" exact />
+           <Route element = {<ListagemPedido/>}      path= "/pedidos" exact />
+           <Route element = {<ListagemBanho/>}       path= "/banho-e-tosa" exact />
         </Routes>
         
     </BrowserRouter>
