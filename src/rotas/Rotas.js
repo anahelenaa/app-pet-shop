@@ -13,6 +13,7 @@ import ListagemFornecedor from '../componentes/layout/paginas/fornecedor/Listage
 import ListagemPedido from '../componentes/layout/paginas/pedido/ListagemPedido';
 import ListagemBanho from '../componentes/layout/paginas/banho-e-tosa/ListagemBanho';
 import EdicaoFuncionario from '../componentes/layout/paginas/funcionario/EdicaoFuncionario';
+import CadastroCliente from '../componentes/layout/paginas/cliente/CadastroCliente';
 
 const Rotas = () => {
   return (
@@ -23,6 +24,7 @@ const Rotas = () => {
            <Route element = {<Cadastro/>}            path="/cadastro" exact />
            <Route element = {<Dashboard/>}           path="/dashboard" exact />
            <Route element = {<ListagemCliente/>}     path="/clientes" exact />
+           <Route element = {<CadastroCliente/>}     path="/clientes/cadastro" exact />
            <Route element = {<ListagemFuncionario/>} path="/funcionarios" exact />
            <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
            <Route element = {<EdicaoFuncionario/>}   path="/funcionarios/editar/idFuncionario" exact />

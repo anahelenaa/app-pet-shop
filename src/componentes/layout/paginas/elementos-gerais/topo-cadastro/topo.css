@@ -1,0 +1,22 @@
+.nome-modulo-cadastro {
+    color: var(--corPrimariaEscura);
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.descricao-modulo-cadastro{
+    color: var(--corPrimariaEscura);
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 25px;
+    margin: 0px;
+}
+
+.dados-modulo-topo-cadastro{
+    background-color: var(--corBranco);
+    margin: 2vw;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}

@@ -27,3 +27,7 @@ table{
 .icone-editar{
     color: var(--corPrimariaEscura);
 }
+
+.tr-listagem:nth-child(even){
+    background-color: #eeeeee;
+}
