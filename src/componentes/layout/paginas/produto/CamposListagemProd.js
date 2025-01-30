@@ -28,7 +28,8 @@ const CamposListagemProduto = [
     },
     {
         nome:'Editar',
-        nomeAtributo: 'editar'
+        nomeAtributo: 'editar',
+        linkEdicao: '/produtos/'
     },
 ]
 

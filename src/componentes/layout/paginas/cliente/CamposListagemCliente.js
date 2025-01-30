@@ -19,7 +19,9 @@ const CamposListagemCliente = [
     },
     {
         nome:'Editar',
-        nomeAtributo: 'editar'
+        nomeAtributo: 'editar',
+        linkEdicao: '/clientes/'
+
     },
 ]
 

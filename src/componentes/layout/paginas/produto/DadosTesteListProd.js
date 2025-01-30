@@ -3,6 +3,7 @@ import React from 'react'
 const DadosTesteListProd
 = [
     {
+        idProduto: 1,
         nome: 'Ração Premium',
         estoque: 50,
         preco: 120.50,
@@ -11,6 +12,7 @@ const DadosTesteListProd
     },
     
     {
+        idProduto: 2,
         nome: 'Ração Premium',
         estoque: 50,
         preco: 120.50,
@@ -19,6 +21,7 @@ const DadosTesteListProd
     },
       
     {
+        idProduto: 3,
         nome: 'Ração Premium',
         estoque: 50,
         preco: 120.50,
@@ -27,6 +30,7 @@ const DadosTesteListProd
     },
     
     {
+        idProduto: 4,
         nome: 'Ração Premium',
         estoque: 50,
         preco: 120.50,

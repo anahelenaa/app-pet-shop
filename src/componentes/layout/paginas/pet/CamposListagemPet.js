@@ -28,7 +28,8 @@ const CamposListagemPet = [
     },
     {
         nome:'Editar',
-        nomeAtributo: 'editar'
+        nomeAtributo: 'editar',
+        linkEdicao: '/pets/'
     },
 ]
 

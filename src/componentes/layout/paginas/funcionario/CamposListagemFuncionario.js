@@ -23,7 +23,8 @@ const CamposListagemFuncionario = [
     },
     {
         nome:'Editar',
-        nomeAtributo: 'editar'
+        nomeAtributo: 'editar',
+        linkEdicao: '/funcionarios/'
     },
 ]
 

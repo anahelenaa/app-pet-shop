@@ -26,7 +26,7 @@ const ListagemFuncionario = () => {
              descricaoModulo={'Cadastre, altere e exclua funcionários'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemFuncionario} dadosTabela={DadosTesteListFunc}/>
+            <TabelaListagem camposTabela={CamposListagemFuncionario} dadosTabela={DadosTesteListFunc} nomeCampoId={'idFuncionario'}/>
 
         </div>
       </div>

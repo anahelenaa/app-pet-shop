@@ -26,7 +26,7 @@ const ListagemPet = () => {
              descricaoModulo={'Cadastre, altere e exclua pets'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={DadosTesteListPet}/>
+            <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={DadosTesteListPet} nomeCampoId={'idPet'}/>
 
         </div>
       </div>

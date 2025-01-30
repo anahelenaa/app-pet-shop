@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const CamposListagemFuncionario = [
+const CamposListagemBanho = [
     {
         nome:'Tipo',
         nomeAtributo: 'tipo'
@@ -29,8 +29,9 @@ const CamposListagemFuncionario = [
     },
     {
         nome:'Editar',
-        nomeAtributo: 'editar'
+        nomeAtributo: 'editar',
+        linkEdicao: '/banho-e-tosa/'
     },
 ]
 
-export default CamposListagemFuncionario
+export default CamposListagemBanho

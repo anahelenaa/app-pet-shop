@@ -26,7 +26,7 @@ const ListagemCliente = () => {
             descricaoModulo={'Cadastre, altere e exclua clientes'}
             />
 
-            <TabelaListagem camposTabela={CamposListagemCliente} dadosTabela={DadosTesteListCli}/>
+            <TabelaListagem camposTabela={CamposListagemCliente} dadosTabela={DadosTesteListCli} nomeCampoId={'idCliente'}/>
 
         </div>
       </div>

@@ -23,7 +23,8 @@ const CamposListagemFornecedor = [
     },
     {
         nome:'Editar',
-        nomeAtributo: 'editar'
+        nomeAtributo: 'editar',
+        linkEdicao: '/fornecedores/'
     },
 ]
 

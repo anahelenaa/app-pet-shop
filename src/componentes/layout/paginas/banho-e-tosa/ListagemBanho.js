@@ -26,7 +26,7 @@ const ListagemBanho = () => {
              descricaoModulo={'Cadastre, altere e exclua Banho e tosa'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemBanho} dadosTabela={DadosTesteListBanho}/>
+            <TabelaListagem camposTabela={CamposListagemBanho} dadosTabela={DadosTesteListBanho} nomeCampoId={'idBanho'}/>
 
         </div>
       </div>

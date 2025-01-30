@@ -27,7 +27,7 @@ const ListagemFornecedor = () => {
              descricaoModulo={'Cadastre, altere e exclua fornecedores'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemFornec} dadosTabela={DadosTesteListFornec}/>
+            <TabelaListagem camposTabela={CamposListagemFornec} dadosTabela={DadosTesteListFornec} nomeCampoId={'idFornecedor'}/>
 
         </div>
       </div>

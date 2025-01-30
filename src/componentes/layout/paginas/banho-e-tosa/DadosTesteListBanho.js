@@ -2,6 +2,7 @@ import React from 'react'
 
 const DadosTesteListBanho = [
     {
+        idBanho: 1,
         tipo: 'Tosa',
         preco: 100.00,
         data: '03/06/2024',
@@ -9,6 +10,7 @@ const DadosTesteListBanho = [
         pet: 'Rex'
     },
     {
+        idBanho: 2,
         tipo: 'Tosa',
         preco: 100.00,
         data: '03/06/2024',
@@ -16,6 +18,7 @@ const DadosTesteListBanho = [
         pet: 'Rex'
     },
     {
+        idBanho: 3,
         tipo: 'Tosa',
         preco: 100.00,
         data: '03/06/2024',
@@ -23,6 +26,7 @@ const DadosTesteListBanho = [
         pet: 'Rex'
     },
     {
+        idBanho: 4,
         tipo: 'Tosa',
         preco: 100.00,
         data: '03/06/2024',

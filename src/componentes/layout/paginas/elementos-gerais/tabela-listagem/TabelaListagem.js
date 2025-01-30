@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
 import './tabela-listagem.css'
 import * as FaIcon from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
-const TabelaListagem = ({camposTabela, dadosTabela}) => {
+const TabelaListagem = ({camposTabela, dadosTabela, nomeCampoId}) => {
   return (
     <Fragment>
         <table>
@@ -29,7 +30,10 @@ const TabelaListagem = ({camposTabela, dadosTabela}) => {
 
                                     } else if (campo.nomeAtributo === 'editar'){
                                         return (<td className='td-acao'> 
-                                                    <i className='icone-editar'><FaIcon.FaPen/></i> 
+                                                    <Link to={campo.linkEdicao + dado[nomeCampoId]}>
+                                                        <i className='icone-editar'><FaIcon.FaPen/></i> 
+                                                    </Link>
+                                                    
                                                 </td>)
 
                                     } else {

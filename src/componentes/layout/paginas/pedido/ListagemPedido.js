@@ -26,7 +26,7 @@ const ListagemPedido = () => {
              descricaoModulo={'Cadastre, altere e exclua pedidos'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemPedido} dadosTabela={DadosTesteListPedido}/>
+            <TabelaListagem camposTabela={CamposListagemPedido} dadosTabela={DadosTesteListPedido} nomeCampoId={'idPedido'}/>
 
         </div>
       </div>
