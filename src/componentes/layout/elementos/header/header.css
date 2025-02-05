@@ -35,3 +35,37 @@
     align-items: center;
     margin-right: 25px;
 }
+
+.dados-login-header {
+    display: flex;
+    color: var(--corBranco);
+    margin-top: 10px;
+}
+
+.botao-funcionario-logado-header{
+    height: 47px;
+    width: 47px;
+    margin-top: 12px;
+    background-color: var(--corTransparente);
+    border: 0px;
+    color: var(--corBranco);
+    font-size: 36px;
+    display: flex;
+    border-radius: 50%;
+    
+}
+
+.botao-funcionario-logado-header i {
+    height: 47px;
+    width: 47px;
+}
+
+.botao-funcionario-logado-header:hover {
+    transition: 0.3s;
+    background-color: var(--corBranco);
+    color: var(--corPrimaria);
+}
+
+.link-botao-funcionario-logado-header{
+    margin-right: 5px;
+}
