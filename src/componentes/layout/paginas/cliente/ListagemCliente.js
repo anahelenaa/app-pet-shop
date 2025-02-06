@@ -24,6 +24,7 @@ const ListagemCliente = () => {
             <Topo
             nomeModulo={'Clientes'}
             descricaoModulo={'Cadastre, altere e exclua clientes'}
+            caminhoModulo={'/clientes'}
             />
 
             <TabelaListagem camposTabela={CamposListagemCliente} dadosTabela={DadosTesteListCli} nomeCampoId={'idCliente'}/>

@@ -24,6 +24,7 @@ const ListagemPet = () => {
             <Topo 
              nomeModulo={'Pets'}
              descricaoModulo={'Cadastre, altere e exclua pets'}
+             caminhoModulo={'/pets'}
              />
 
             <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={DadosTesteListPet} nomeCampoId={'idPet'}/>

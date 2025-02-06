@@ -24,6 +24,7 @@ const ListagemProduto = () => {
             <Topo 
              nomeModulo={'Produtos'}
              descricaoModulo={'Cadastre, altere e exclua produtos'}
+             caminhoModulo={'/produtos'}
              />
 
             <TabelaListagem camposTabela={CamposListagemProd} dadosTabela={DadosTesteListProd} nomeCampoId={'idProduto'}/>

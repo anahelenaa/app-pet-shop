@@ -25,6 +25,7 @@ const ListagemFornecedor = () => {
             <Topo 
              nomeModulo={'Fornecedores'}
              descricaoModulo={'Cadastre, altere e exclua fornecedores'}
+             caminhoModulo={'/fornecedores'}
              />
 
             <TabelaListagem camposTabela={CamposListagemFornec} dadosTabela={DadosTesteListFornec} nomeCampoId={'idFornecedor'}/>

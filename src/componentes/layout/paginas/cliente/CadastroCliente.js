@@ -2,9 +2,8 @@ import React, { Fragment, useState } from 'react'
 import Header from '../../elementos/header/Header';
 import MenuLateral from '../../elementos/menu-lateral/MenuLateral';
 import Topo from '../elementos-gerais/topo-cadastro/Topo';
-import DadosEdicao from '../elementos-gerais/dados-edicao/DadosEdicao';
+import DadosCadastro from '../elementos-gerais/dados-cadastro/DadosCadastro';
 import CamposEdicaoCliente from './CamposEdicaoCliente';
-import DadosTesteEdicaoCli from './DadosTesteEdicaoCli';
 
 const CadastroCliente = () => {
   const [botaoClicado, setBotaoClicado ] = useState(true);
@@ -20,10 +19,10 @@ const CadastroCliente = () => {
               <MenuLateral botaoClicado={botaoClicado}/>
               
               <div className='conteudo-edicao-cli'>
-                <Topo nomeObjetoModulo={'Cliente'} descricaoModulo={'Visualize e edite os dados do cliente'}/>
+                <Topo nomeObjetoModulo={'Cliente'}/>
 
                 <div className='dados-cli'>
-                  <DadosEdicao camposEdicao={CamposEdicaoCliente} dadosObjeto={DadosTesteEdicaoCli} modulo={'cli'}/>
+                  <DadosCadastro camposCadastro={CamposEdicaoCliente}/>
                 </div>
 
               </div>

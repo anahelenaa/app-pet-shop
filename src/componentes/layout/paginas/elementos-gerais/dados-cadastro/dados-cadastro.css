@@ -1,0 +1,30 @@
+.botao-cadastro{
+    background-color: var(--corPrimaria);
+    border: 0px;
+    color: var(--corBranco);
+    font-size: 20px;
+    width: 150px;
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 5px 0px 5px 0px;
+}
+
+.botao-cadastro:hover{
+    background-color: var(--corPrimariaHover);
+    cursor: pointer;
+}
+
+.conjunto-dados-cadastro {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.conjunto-dados-cadastro input {
+    max-height: 25px;
+    border-color: var(--corPrimaria);
+    border-radius: 3px;
+    padding-left: 10px;
+}
