@@ -1,0 +1,30 @@
+.conteudo-pagina-edicao-pet{
+    display: flex;
+}
+
+.conteudo-edicao-pet{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}
+
+.dados-pet{
+    background-color: var(--corBranco);
+    margin: 2vw;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    margin-top: -2vw;
+}
+
+.dados-edicao-pet-nome {
+    padding-top: 30px;
+}
+
+.dados-edicao-pet-nome input,
+.dados-edicao-pet-raca input,
+.dados-edicao-pet-porte input,
+.dados-edicao-pet-especie input,
+.dados-edicao-pet-dono input
+{
+    margin-left: 10px;
+    width: 200px;
+}

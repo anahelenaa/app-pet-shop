@@ -1,0 +1,30 @@
+.conteudo-pagina-edicao-ban{
+    display: flex;
+}
+
+.conteudo-edicao-ban{
+    background-color: var(--corSecundaria);
+    width: 100vw;
+}
+
+.dados-ban{
+    background-color: var(--corBranco);
+    margin: 2vw;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    margin-top: -2vw;
+}
+
+.dados-edicao-ban-nome {
+    padding-top: 30px;
+}
+
+.dados-edicao-ban-tipo input,
+.dados-edicao-ban-preco input,
+.dados-edicao-ban-data input,
+.dados-edicao-ban-funcionario input,
+.dados-edicao-ban-pet input
+{
+    margin-left: 10px;
+    width: 200px;
+}
