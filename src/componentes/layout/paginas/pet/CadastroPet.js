@@ -22,7 +22,7 @@ const CadastroPet = () => {
                 <Topo nomeObjetoModulo={'Pet'}/>
 
                 <div className='dados-pet'>
-                  <DadosCadastro camposCadastro={CamposEdicaoPet}/>
+                  <DadosCadastro camposCadastro={CamposEdicaoPet} modulo='pet'/>
                 </div>
 
               </div>

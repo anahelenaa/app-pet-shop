@@ -27,7 +27,7 @@ const ListagemProduto = () => {
              caminhoModulo={'/produtos'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemProd} dadosTabela={DadosTesteListProd} nomeCampoId={'idProduto'}/>
+            <TabelaListagem camposTabela={CamposListagemProd} dadosTabela={DadosTesteListProd} nomeCampoId={'idProduto'} modulo={'produto'}/>
 
         </div>
       </div>

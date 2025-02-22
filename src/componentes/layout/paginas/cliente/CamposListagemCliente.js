@@ -2,6 +2,10 @@ import React from 'react'
 
 const CamposListagemCliente = [
     {
+        nome:'Código',
+        nomeAtributo: 'codigo'
+    },
+    {
         nome:'Nome',
         nomeAtributo: 'nome'
     },
@@ -20,7 +24,7 @@ const CamposListagemCliente = [
     {
         nome:'Editar',
         nomeAtributo: 'editar',
-        linkEdicao: '/clientes/'
+        linkEdicao: '/clientes/editar/'
 
     },
 ]

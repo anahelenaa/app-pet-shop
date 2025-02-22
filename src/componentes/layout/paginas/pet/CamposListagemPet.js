@@ -19,7 +19,8 @@ const CamposListagemPet = [
     },
     {
         nome:'Dono',
-        nomeAtributo:'nomeCliente'
+        nomeAtributo:'cliente',
+        nomeAtributoSecundario:'nome'
 
     },
     {
@@ -29,7 +30,7 @@ const CamposListagemPet = [
     {
         nome:'Editar',
         nomeAtributo: 'editar',
-        linkEdicao: '/pets/'
+        linkEdicao: '/pets/editar/'
     },
 ]
 

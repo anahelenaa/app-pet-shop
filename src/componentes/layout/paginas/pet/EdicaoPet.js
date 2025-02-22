@@ -5,6 +5,7 @@ import Topo from '../elementos-gerais/topo-edicao/Topo';
 import DadosEdicao from '../elementos-gerais/dados-edicao/DadosEdicao';
 import CamposEdicaoPet from './CamposEdicaoPet';
 import DadosTesteEdicaoPet from './DadosTesteEdicaoPet';
+import DetalhePetApi from '../../../api/DetalhePetApi';
 import './edicao-pet.css';
 
 const EdicaoPet = () => {
@@ -13,6 +14,9 @@ const EdicaoPet = () => {
   const clicarBotao = () => {
       setBotaoClicado(!botaoClicado);
   }
+
+  const pet = DetalhePetApi();
+
   return (
     <Fragment>
           <div className='fundo-edicao-pet'>
@@ -24,7 +28,7 @@ const EdicaoPet = () => {
                 <Topo nomeObjetoModulo={'Pet'} descricaoModulo={'Visualize e edite os dados do pet'}/>
 
                 <div className='dados-pet'>
-                  <DadosEdicao camposEdicao={CamposEdicaoPet} dadosObjeto={DadosTesteEdicaoPet} modulo={'pet'}/>
+                  <DadosEdicao camposEdicao={CamposEdicaoPet} dadosObjeto={pet} modulo={'pet'}/>
                 </div>
 
               </div>

@@ -22,10 +22,10 @@ const CamposListagemPet = [
         nomeAtributo: 'especie'
     },
     {
-        nome:'Dono',
+        nome:'Código do cliente',
         classe: 'pet-dono',
-        nomeAtributo:'nomeCliente'
-
+        nomeAtributo:'cliente',
+        nomeAtributoSecundario:'codigo'
     },
   
 ]

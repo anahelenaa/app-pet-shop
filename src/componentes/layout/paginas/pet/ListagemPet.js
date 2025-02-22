@@ -5,7 +5,7 @@ import './listagem-pet.css'
 import Topo from '../elementos-gerais/topo-listagem/Topo.js';
 import CamposListagemPet from './CamposListagemPet.js';
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem.js';
-import DadosTesteListPet from './DadosTesteListPet.js';
+import ListagemPetsApi from '../../../api/ListagemPetsApi.js';
 
 const ListagemPet = () => {
     const [botaoClicado, setBotaoClicado ] = useState(true);
@@ -13,6 +13,8 @@ const ListagemPet = () => {
     const clicarBotao = () => {
         setBotaoClicado(!botaoClicado);
     }
+
+    const pets = ListagemPetsApi();
   return (
     <div className='fundo-listagem-pet'>
       <Header clicarBotao={clicarBotao}/>
@@ -27,7 +29,7 @@ const ListagemPet = () => {
              caminhoModulo={'/pets'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={DadosTesteListPet} nomeCampoId={'idPet'}/>
+            <TabelaListagem camposTabela={CamposListagemPet} dadosTabela={pets} nomeCampoId={'codigo'} modulo={'pet'}/>
 
         </div>
       </div>

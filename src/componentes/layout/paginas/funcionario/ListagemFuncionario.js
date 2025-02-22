@@ -27,7 +27,7 @@ const ListagemFuncionario = () => {
              caminhoModulo={'/funcionarios'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemFuncionario} dadosTabela={DadosTesteListFunc} nomeCampoId={'idFuncionario'}/>
+            <TabelaListagem camposTabela={CamposListagemFuncionario} dadosTabela={DadosTesteListFunc} nomeCampoId={'idFuncionario'} modulo={'funcionario'}/>
 
         </div>
       </div>

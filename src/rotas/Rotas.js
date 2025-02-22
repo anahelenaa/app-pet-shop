@@ -32,17 +32,17 @@ const Rotas = () => {
            <Route element = {<ListagemCliente/>}     path="/clientes" exact />
            <Route element = {<CadastroCliente/>}     path="/clientes/cadastro" exact />
            <Route element = {<ListagemFuncionario/>} path="/funcionarios" exact />
-           <Route element = {<EdicaoCliente/>}       path="/clientes/editar/idCliente" exact />
-           <Route element = {<EdicaoFuncionario/>}   path="/funcionarios/editar/idFuncionario" exact />
+           <Route element = {<EdicaoCliente/>}       path="/clientes/editar/:idCliente" exact />
+           <Route element = {<EdicaoFuncionario/>}   path="/funcionarios/editar/:idFuncionario" exact />
            <Route element = {<ListagemPet/>}         path= "/pets" exact />
            <Route element = {<ListagemProduto/>}     path= "/produtos" exact />
            <Route element = {<ListagemFornecedor/>}  path= "/fornecedores" exact />
            <Route element = {<ListagemPedido/>}      path= "/pedidos" exact />
            <Route element = {<ListagemBanho/>}       path= "/banho-e-tosa" exact />
            <Route element = {<CadastroBanho/>}     path="/banho-e-tosa/cadastro" exact />
-           <Route element = {<EdicaoBanho/>}     path="/banho-e-tosa/editar/idBanho" exact />
+           <Route element = {<EdicaoBanho/>}     path="/banho-e-tosa/editar/:idBanho" exact />
            <Route element = {<CadastroPet/>}         path= "/pets/cadastro" exact />
-           <Route element = {<EdicaoPet/>}         path= "/pets/editar/idPet" exact />
+           <Route element = {<EdicaoPet/>}         path= "/pets/editar/:idPet" exact />
            <Route element = {<CadastroFuncionario/>}   path="/funcionarios/cadastro" exact />
         </Routes>
         

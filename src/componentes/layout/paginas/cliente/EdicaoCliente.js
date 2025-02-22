@@ -5,7 +5,7 @@ import Topo from '../elementos-gerais/topo-edicao/Topo';
 import './edicao-cliente.css';
 import DadosEdicao from '../elementos-gerais/dados-edicao/DadosEdicao';
 import CamposEdicaoCliente from './CamposEdicaoCliente';
-import DadosTesteEdicaoCli from './DadosTesteEdicaoCli';
+import DetalheClienteApi from '../../../api/DetalheClienteApi';
 
 const EdicaoCliente = () => {
   const [botaoClicado, setBotaoClicado ] = useState(true);
@@ -13,6 +13,9 @@ const EdicaoCliente = () => {
   const clicarBotao = () => {
       setBotaoClicado(!botaoClicado);
   }
+
+  const cliente = DetalheClienteApi();
+
   return (
     <Fragment>
           <div className='fundo-edicao-cli'>
@@ -24,7 +27,7 @@ const EdicaoCliente = () => {
                 <Topo nomeObjetoModulo={'Cliente'} descricaoModulo={'Visualize e edite os dados do cliente'}/>
 
                 <div className='dados-cli'>
-                  <DadosEdicao camposEdicao={CamposEdicaoCliente} dadosObjeto={DadosTesteEdicaoCli} modulo={'cli'}/>
+                  <DadosEdicao camposEdicao={CamposEdicaoCliente} dadosObjeto={cliente} modulo={'cli'}/>
                 </div>
 
               </div>

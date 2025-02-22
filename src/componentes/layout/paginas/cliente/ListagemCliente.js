@@ -3,8 +3,8 @@ import Topo from '../elementos-gerais/topo-listagem/Topo'
 import MenuLateral from '../../elementos/menu-lateral/MenuLateral'
 import Header from '../../elementos/header/Header'
 import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem'
-import DadosTesteListCli from './DadosTesteListCli'
 import CamposListagemCliente from './CamposListagemCliente'
+import ListagemClientesApi from '../../../api/ListagemClientesApi'
 import './listagem-cliente.css'
 
 const ListagemCliente = () => {
@@ -13,6 +13,9 @@ const ListagemCliente = () => {
   const clicarBotao = () => {
       setBotaoClicado(!botaoClicado);
   }
+
+  const clientes = ListagemClientesApi();
+
   return (
     <div className='fundo-listagem-cli'>
       <Header clicarBotao={clicarBotao}/>
@@ -27,7 +30,7 @@ const ListagemCliente = () => {
             caminhoModulo={'/clientes'}
             />
 
-            <TabelaListagem camposTabela={CamposListagemCliente} dadosTabela={DadosTesteListCli} nomeCampoId={'idCliente'}/>
+            <TabelaListagem camposTabela={CamposListagemCliente} dadosTabela={clientes} nomeCampoId={'codigo'} modulo={'cliente'}/>
 
         </div>
       </div>

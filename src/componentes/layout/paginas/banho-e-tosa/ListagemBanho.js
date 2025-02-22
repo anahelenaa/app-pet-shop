@@ -27,7 +27,7 @@ const ListagemBanho = () => {
              caminhoModulo={'/banho-e-tosa'}
              />
 
-            <TabelaListagem camposTabela={CamposListagemBanho} dadosTabela={DadosTesteListBanho} nomeCampoId={'idBanho'}/>
+            <TabelaListagem camposTabela={CamposListagemBanho} dadosTabela={DadosTesteListBanho} nomeCampoId={'idBanho'} modulo={'banho'}/>
 
         </div>
       </div>

@@ -22,7 +22,7 @@ const CadastroCliente = () => {
                 <Topo nomeObjetoModulo={'Cliente'}/>
 
                 <div className='dados-cli'>
-                  <DadosCadastro camposCadastro={CamposEdicaoCliente}/>
+                  <DadosCadastro camposCadastro={CamposEdicaoCliente} modulo='cliente'/>
                 </div>
 
               </div>
