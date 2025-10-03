@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import './login.css'
-import ImagemPata from '../../imagens/pata-verde-agua.png'
+import ImagemPata from '../../imagens/logo-removebg-preview.png'
 import Cadastro from '../cadastro-funcionario/Cadastro'
 
 const Login = () => {
@@ -8,8 +8,8 @@ const Login = () => {
     <Fragment>
        <div className='fundo-login'>
             <div className='conteudo-login'>
-                <img src={ImagemPata} className='imagem-pata'/>
-                <h1 className='nome-pagina-login'>PetShop</h1>
+                <img src={ImagemPata} className='imagem-login'/>
+                <h1 className='nome-pagina-login'>Login</h1>
 
                 <div className='dados-login'>
                 <input placeholder='E-mail'></input>

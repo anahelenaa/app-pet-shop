@@ -7,5 +7,4 @@ const DadosTesteEdicaoCli = {
         endereco: 'Rua tal bairro tal 656',
     }
 
-
 export default DadosTesteEdicaoCli

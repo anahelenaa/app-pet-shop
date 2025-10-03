@@ -1,11 +1,11 @@
 import {React, useState} from 'react'
-import Header from '../../elementos/header/Header';
-import MenuLateral from '../../elementos/menu-lateral/MenuLateral';
+import Header from '../../elementos/header/Header.js';
+import MenuLateral from '../../elementos/menu-lateral/MenuLateral.js';
 import './listagem-funcionario.css'
-import Topo from '../elementos-gerais/topo-listagem/Topo';
-import CamposListagemFuncionario from './CamposListagemFuncionario';
-import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem';
-import DadosTesteListFunc from './DadosTesteListFunc';
+import Topo from '../elementos-gerais/topo-listagem/Topo.js';
+import CamposListagemFuncionario from './CamposListagemFuncionario.js';
+import TabelaListagem from '../elementos-gerais/tabela-listagem/TabelaListagem.js';
+import DadosTesteListFunc from './DadosTesteListFunc.js';
 
 const ListagemFuncionario = () => {
     const [botaoClicado, setBotaoClicado ] = useState(true);

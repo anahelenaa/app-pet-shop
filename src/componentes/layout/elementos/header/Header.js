@@ -1,10 +1,12 @@
 import {React, useState} from 'react';
 import './header.css';
-import ImagemHeader from '../../../imagens/pata-branca.png';
+import ImagemHeader from '../../../imagens/logo-removebg-preview.png';
 import * as MdIcons from 'react-icons/md';
 import DadosTesteLogin from './DadosTesteLogin';
 
 const Header = ({clicarBotao}) => {
+
+    // TENTAR MUDAR O BOTÃO PARA O LADO ESQUERDO NO MENU LATERAL COMO NO SUAP (IDEIA DA ISA)
 
     const [botaoClicado, setBotaoClicado] = useState(true);
 
@@ -18,7 +20,7 @@ const Header = ({clicarBotao}) => {
 
         <div className='nome-sistema-header'>
             <img src={ImagemHeader} className='imagem-header'/>
-            <h1 className='nome-header'>PetShop</h1>
+            <h1 className='nome-header'>Integrax</h1>
         </div>
 
         <div className='dados-login-header'>

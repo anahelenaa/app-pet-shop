@@ -7,7 +7,6 @@
     align-items: center;
 }
 
-
 .conteudo-login{
     width: 50%;
     height:70%;
@@ -79,6 +78,6 @@
 
 }
 
-.imagem-pata {
-    height: 80px;
+.imagem-login {
+    height: 120px;
 }

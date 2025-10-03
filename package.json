@@ -15,6 +15,7 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

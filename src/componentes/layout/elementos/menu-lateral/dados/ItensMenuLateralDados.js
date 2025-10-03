@@ -8,11 +8,6 @@ const ItensMenuLateralDados = [
         path:'/clientes',
     },
     {
-        page:'Pets',
-        icon: <FaIcon.FaCat/>,
-        path:'/pets',
-    },
-    {
         page:'Funcionarios',
         icon: <FaIcon.FaPeopleCarry/>,
         path:'/funcionarios',
@@ -31,11 +26,6 @@ const ItensMenuLateralDados = [
         page:'Pedidos',
         icon: <FaIcon.FaReceipt/>,
         path:'/pedidos',
-    },
-    {
-        page:'Banho e tosa',
-        icon: <FaIcon.FaSoap/>,
-        path:'/banho-e-tosa',
     },
 ]
 

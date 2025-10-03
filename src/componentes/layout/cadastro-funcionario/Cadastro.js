@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react'
 import './cadastro.css'
-import ImagemPata from '../../imagens/pata-verde-agua.png'
+import ImagemLogo from '../../imagens/logo-removebg-preview.png'
 
 const Cadastro = () => {
   return (
     <Fragment>
         <div className='fundo-cadastro'>
             <div className='conteudo-cadastro'>
-                <img src={ImagemPata} className='imagem-pata'/>
-                <h1 className='nome-pagina-cadastro'>PetShop</h1>
+                <img src={ImagemLogo} className='imagem-logo'/>
+                <h1 className='nome-pagina-cadastro'>Gerenciador de estoque</h1>
 
                 <div className='dados-cadastro'>
                 <input placeholder='Nome'></input>
